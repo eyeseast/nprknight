@@ -1,0 +1,49 @@
+body {
+  font-family: 'Georgia', serif;
+  background:#fff;
+  background-size:100%;
+  margin:0;
+  padding:0;
+  color:#111;
+}
+
+h1, h2, h3, p { margin:0; }
+
+em, a {
+  font-style:normal;
+  color:#ff1759;
+}
+
+a {
+  background: #ff1759;
+  color:#000;
+  text-decoration:none;
+}
+
+img { width:100%; }
+
+div.slide {
+  padding:10%;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  cursor:pointer;
+  cursor:hand;
+  font-size:40px;
+  overflow:hidden;
+  background-size:100%;
+}
+
+div.slide.longtext p {
+  font-size: 30px;
+  margin-bottom: 1em;
+  line-height: 1.5em;
+}
+
+div.slide blockquote {
+  font-size: 30px;
+  color: #777;
+}
+
+blockquote:lang(en) { quotes: '"' '"' "'" "'" }
+blockquote:before   { content: open-quote }
+blockquote:after    { content: close-quote }
